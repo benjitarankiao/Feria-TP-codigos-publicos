@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(fontfamily/futura/Futura\ Bold\ font.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-text-banner {
+    background-image: url(img/pixelcut-export.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: 45vw;
+}
+
+.nav-text-banner a {
+    text-decoration: none;
+    color: white;
+    margin: 3vw 5vw;
+}
+
+.text-banner {
+    display: flex;
+    justify-content: center;
+    margin: 13vw 0;
+    color: white;
+    font-size: 1.8vw;
+}
+
+.flex-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.flex-nav img {
+    width: 10vw;
+}
+
+.first-text {
+    font-size: 1.3vw;
+    width: 22vw;
+    color: #3B147B;
+    margin: 0px 6vw;
+}
+
+.text-first {
+    color: white;
+    font-size: 1.1vw;
+    padding: 20px 0px;
+}
+
+.box-first-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0vw;
+}
+
+.photo-wing img {
+    width: 20vw;
+    margin: 0px 6vw;
+}
+
+.column-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.column-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-individual {
+    color: white;
+    margin: 30px;
+}
+
+.card-icon-text {
+    display: flex;
+    width: 25vw;
+    background-color: #222222;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.card-individual i {
+    display: flex;
+    align-items: center;
+    background-color: #848484;
+    padding: 1vw 0.9vw;
+    font-size: 4.5vw;
+    margin: 0px 20px 0px 0px;
+    border-radius: 25px;
+}
+
+.text-card {
+    font-size: 0.6vw;
+}
+
+.text-card h2 {
+    margin: 0.8vw 0vw;
+    color: #B9A8C6;
+}
+
+.box-icon-text {
+    padding: 20px;
+}
+
+.linea {
+    background-color: #3B147B;
+    width: 70vw;
+    margin: 5vw auto;
+}
+
+.box-title-agency {
+    margin: auto;
+    color: white;
+}
+
+.title-agency {
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin: 5vw 15vw;
+    width: 48vw;
+}
+
+.title-agency h1 {
+    font-size: 3.5vw;
+}
+
+.general-box-information-text {
+    color: #3B147B;
+    width: 70vw;
+    margin: auto;
+    font-size: 0.9vw;
+}
+
+.text-information-1,
+.text-information-2,
+.text-information-3 {
+    margin: 2.8vw 0vw;
+    color: #d2d6d7;
+}
+
+.text-information-2 {
+    width: 40vw;
+}
+
+.text-photo-information {
+    display: flex;
+    align-items: center;
+}
+
+.text-photo-information img {
+    width: 30vw;
+}
+
+.box-northkorea {
+    display: flex;
+    justify-content: center;
+}
+
+.exp-northkorea {
+    background-image: url(img/exp\ corea\ del\ norte.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    width: 70vw;
+    margin: 6vw 0vw;
+    transition: transform 0.5s ease-in-out;
+}
+
+.exp-northkorea:hover {
+    transform: scale(1.1);
+}
+
+.exp-northkorea h1 {
+    display: flex;
+    justify-content: center;
+    margin: 13vw 0;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.exp-northkorea a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.exp-northkorea a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.text-informateya {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3.4vw;
+    text-decoration: underline;
+}
+
+.box-general-locations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+}
+
+.individual-box-location {
+    background-color: #222222;
+    margin: 0px 50px;
+    color: white;
+    width: 15vw;
+}
+
+.individual-box-location img {
+    width: 15vw;
+    height: 10vw;
+}
+
+.informacion-estadia {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -1.7vh;
+    left: -1vh;
+}
+
+.informacion-estadia h5 {
+    background-color: #606466;
+    padding: 4px;
+}
+
+.informacion-viaje {
+    padding: 0vh 0vh 20vh 1vh;
+}
+
+.informacion-abajo {
+    padding: 10px;
+}
+
+.text-asia {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3.4vw;
+    text-decoration: underline;
+    margin-top: 20vh;
+}
+
+.background-text-rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-rrss {
+    background-color: #090909;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10vh;
+    width: 55vw;
+}
+
+.background-rrss h1 {
+    font-size: 2.5vw;
+
+}
+
+.rrss-icon {
+    color: white;
+    font-size: 4vw;
+    margin: 8vh;
+}
+
+.rrss-icon i {
+    margin: 15px;
+    color: white;
+}
+
+.suscribe-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.suscribe-input h1 {
+    font-size: 2.8vw;
+    text-decoration: underline;
+}
+
+.input-button {
+    background-color: #090909;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-button input {
+    border: none;
+    width: 50vh;
+    background-color: transparent;
+    font-size: 1.5vw;
+}
+
+.input-button i {
+    font-size: 2vw;
+    padding: 0px 30px 0px 0px;
+}
+
+.input-button button {
+    background-color: #3B147B;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+}
+
+/*#3B147B*/
