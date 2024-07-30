@@ -297,9 +297,19 @@ body {
     margin: 8vh 0vh 8vh 0vh;
 }
 
-.rrss-icon i {
+.rrss-icon a {
+    display: inline-block; /* Esto permite que las transformaciones funcionen correctamente */
     margin: 15px;
+}
+
+.rrss-icon i {
     color: white;
+    transition: all 0.3s ease;
+}
+
+.rrss-icon a:hover i {
+    transform: scale(1.1) translateY(-5px);
+    text-shadow: 0 5px 15px rgba(255, 255, 255, 0.2); /* Cambiado a text-shadow para iconos */
 }
 
 .suscribe-input {
@@ -449,5 +459,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8vh;
+    margin: 8vh 0vh 8vh 0vh;
 }
