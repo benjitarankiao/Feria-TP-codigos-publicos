@@ -355,6 +355,7 @@ body {
     background: #272727;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
+    margin: 0px 50px;
 }
 
 .card-info {
@@ -363,9 +364,6 @@ body {
     justify-content: center;
     align-items: center;
     transition: transform .2s ease, opacity .2s ease;
-}
-
-.card-title h5 {
 }
 
 /*Image*/
@@ -405,11 +403,12 @@ body {
 
 /*Text*/
 .card-title {
-    color: #333;
-    font-size: 1.5em;
+    color: #868585;
+    font-size: 1.4em;
     font-weight: 600;
     line-height: 2rem;
 }
+
 
 .card-subtitle {
     color: #859ba8;
@@ -437,4 +436,18 @@ body {
 
 .card-avatar:hover {
     transform: scale(1.1);
+}
+
+.card-avatar img {
+    width: 4vw;
+    height: 3.5vw;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.card-presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
 }
